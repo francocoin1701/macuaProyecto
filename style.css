@@ -9,6 +9,7 @@ header{
 header img{
     width: 70px;
     height: 80px;
+    padding-top: 20px;
 
 }
 
@@ -59,7 +60,7 @@ header img{
 }
 .slider img{
     width: 99%;
-    height: 70%;
+    height: 100%;
 }
 @keyframes cambio {
     0%{margin-left: 0%;}
@@ -73,8 +74,4 @@ header img{
 
     75%{margin-left: -300%;}
     100%{margin-left: -300%;}
-
-
-
-
 }
