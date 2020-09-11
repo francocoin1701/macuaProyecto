@@ -50,6 +50,8 @@ hr{
     text-decoration: none;
     color: black;
 }
+
+
 .slider{
     width: 95%;    
     margin: auto;
@@ -84,6 +86,11 @@ hr{
 
     75%{margin-left: -300%;}
     100%{margin-left: -300%;}
+}
+
+/*hamburger*/
+#Ingre h6{
+    font-size: 5rem;
 }
 .hamburguesa{
     margin: 0;
@@ -134,6 +141,33 @@ section{
 #btn-next{
     right: 50px;
 }
+
+/*perros*/
+.hogdogs{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+#p-slider{
+    margin: auto;
+    width: 85%;
+    position: relative;
+    overflow: hidden;
+}
+#sliPerros{
+    display: flex;
+    width: 600%;
+}
+#sliPerros section{
+    width: 100%;
+}
+#sliPerros img{
+    display: block;
+    width: 90%;
+    height: 100%;
+    
+}
 #ant_erior, #des_pues{
     width: 40px;
     height: 40px;
@@ -156,5 +190,157 @@ section{
     left: 10px;
 }
 #des_pues{
+    right: 50px;
+}
+/*papas*/
+.papasLocas{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+#l-slider{
+    margin: auto;
+    width: 85%;
+    position: relative;
+    overflow: hidden;
+}
+#sliPapas{
+    display: flex;
+    width: 600%;
+}
+#sliPapas section{
+    width: 100%;
+}
+#sliPapas img{
+    display: block;
+    width: 90%;
+    height: 100%;
+    
+}
+#ant, #des{
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.7);
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer;
+}
+#ant:hover, #des:hover{
+    background: rgba(255,255,255,1);
+}
+#ant{
+    left: 10px;
+}
+#des{
+    right: 50px;
+}
+
+/*carnes*/
+.carnes{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+#r-slider{
+    margin: auto;
+    width: 85%;
+    position: relative;
+    overflow: hidden;
+}
+#sliCarnes{
+    display: flex;
+    width: 600%;
+}
+#sliCarnes section{
+    width: 100%;
+}
+#sliCarnes img{
+    display: block;
+    width: 90%;
+    height: 100%;
+    
+}
+#ante, #desp{
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.7);
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer;
+}
+#ante:hover, #desp:hover{
+    background: rgba(255,255,255,1);
+}
+#ante{
+    left: 10px;
+}
+#desp{
+    right: 50px;
+}
+
+/*otros*/
+.otros{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+#o-slider{
+    margin: auto;
+    width: 85%;
+    position: relative;
+    overflow: hidden;
+}
+#sliOtros{
+    display: flex;
+    width: 600%;
+}
+#sliOtros section{
+    width: 100%;
+}
+#sliOtros img{
+    display: block;
+    width: 90%;
+    height: 100%;
+    
+}
+#antesd, #despuesd{
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.7);
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer;
+}
+#antesd:hover, #despuesd:hover{
+    background: rgba(255,255,255,1);
+}
+#antesd{
+    left: 10px;
+}
+#despuesd{
     right: 50px;
 }
