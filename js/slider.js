@@ -1,5 +1,6 @@
 // save slader in var
 var slider = $("#slider");
+var parrafoSlider = $("#parrafoSider")
 var siguiente = $("#btn-next");
 var anterior = $("#btn-prev");
 var ant_erior = $("#ant_erior")
@@ -22,10 +23,19 @@ slider.css("margin-lef", "-"+100+"%");
 
 function moverD(){
     slider.animate({
-        marginLeft:"-"+200+"%"
+        marginLeft:"-"+0+"%"
     },700,function(){
         $("#slider section:first").insertAfter("#slider section:last");
         slider.css("margin-lef", "-"+100+"%");
+     
+    });
+}
+function moverDparrafo(){
+    parrafoSlider.animate({
+        marginLeft:"-"+0+"%"
+    },700,function(){
+        $("#parrafoSider section:first").insertAfter("#parrafoSider section:last");
+        parrafoSlider.css("margin-lef", "-"+100+"%");
      
     });
 }
@@ -35,14 +45,28 @@ function moverI(){
         marginLeft:0
     },700,function(){
         $("#slider section:last").insertBefore("#slider section:first");
-        slider.css("margin-lef","-"+100+"%");               
+        slider.css("margin-lef","-"+100+"%"); 
+                     
+    });
+}
+
+function moverIparrafo(){
+    parrafoSlider.animate({
+        marginLeft:0
+    },700,function(){
+        $("#parrafoSider section:last").insertBefore("#parrafoSider section:first");
+        parrafoSlider.css("margin-lef","-"+100+"%"); 
+                     
     });
 }
 siguiente.on("click",function(){
     moverD();
+    moverDparrafo();
+
 });
 anterior.on("click",function(){
     moverI();
+    moverIparrafo();
 });
 
 //perros
@@ -52,7 +76,7 @@ sliPerros.css("margin-lef", "-"+100+"%");
 
 function moverDperros(){
     sliPerros.animate({
-        marginLeft:"-"+200+"%"
+        marginLeft:"-"+0+"%"
     },700,function(){
         $("#sliPerros section:first").insertAfter("#sliPerros section:last");
         sliPerros.css("margin-lef", "-"+100+"%");
@@ -82,7 +106,7 @@ sliPapas.css("margin-lef", "-"+100+"%");
 
 function moverDpapas(){
     sliPapas.animate({
-        marginLeft:"-"+200+"%"
+        marginLeft:"-"+0+"%"
     },600,function(){
         $("#sliPapas section:first").insertAfter("#sliPapas section:last");
         sliPapas.css("margin-lef", "-"+100+"%");
@@ -112,7 +136,7 @@ sliCarnes.css("margin-lef", "-"+100+"%");
 
 function moverDcarnes(){
     sliCarnes.animate({
-        marginLeft:"-"+200+"%"
+        marginLeft:"-"+0+"%"
     },600,function(){
         $("#sliCarnes section:first").insertAfter("#sliCarnes section:last");
         sliCarnes.css("margin-lef", "-"+100+"%");
@@ -142,7 +166,7 @@ sliOtros.css("margin-lef", "-"+100+"%");
 
 function moverDotros(){
     sliOtros.animate({
-        marginLeft:"-"+200+"%"
+        marginLeft:"-"+0+"%"
     },600,function(){
         $("#sliOtros section:first").insertAfter("#sliOtros section:last");
         sliOtros.css("margin-lef", "-"+100+"%");

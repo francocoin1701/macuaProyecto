@@ -36,6 +36,10 @@ header #redes-sociales i{
     color: white;
     font-size: 3rem;    
 }
+.col-md-6 h6 img {
+    width: 130px;
+    height: 130px;
+}
 .col-md-4 h6 {
     padding-top: 30px;
     color: white;
@@ -108,6 +112,16 @@ header #redes-sociales i{
     overflow: hidden;
 }
 #slider{
+    display: flex;
+    width: 600%;
+}
+#parrafo-slider{
+    margin: auto;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#parrafoSider{
     display: flex;
     width: 600%;
 }
