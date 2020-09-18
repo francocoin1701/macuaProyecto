@@ -114,7 +114,7 @@ header #redes-sociales i{
 }
 #slider{
     display: flex;
-    width: 2200%;
+    width: 2100%;
 }
 #parrafo-slider{
     margin: auto;
@@ -164,33 +164,47 @@ section{
     right: 50px;
 }
 
-/*perros*/
-.hogdogs{
+/*PERROS*/
+.Lhamburguesa{
     margin: 0;
     padding: 0;
     display: flex;
     box-sizing: border-box;
 }
-#p-slider{
+#Lc-slider{
     margin: auto;
     width: 100%;
     position: relative;
     overflow: hidden;
 }
-#sliPerros{
+#Lslider{
     display: flex;
-    width: 600%;
+    width: 2100%;
 }
-#sliPerros section{
+#Lparrafo-slider{
+    margin: auto;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#LparrafoSider{
+    display: flex;
+    width: 2100%;
+}
+#LparrafoSider section{
+    font-size: 23px;
+    color: white;
+}
+section{
     width: 100%;
 }
-#sliPerros img{
+#Lslider img{
     display: block;
     width: 100%;
-    height: 105%;
+    height: 100%;
     
 }
-#ant_erior, #des_pues{
+#Lbtn-prev, #Lbtn-next{
     width: 40px;
     height: 40px;
     background: rgba(255,255,255,0.7);
@@ -205,93 +219,57 @@ section{
     font-family: monospace;
     cursor: pointer;
 }
-#ant_erior:hover, #des_pues:hover{
+#Lbtn-prev:hover, #Lbtn-next:hover{
     background: rgba(255,255,255,1);
 }
-#ant_erior{
+#Lbtn-prev{
     left: 10px;
 }
-#des_pues{
-    right: 50px;
-}
-/*papas*/
-.papasLocas{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    box-sizing: border-box;
-}
-#l-slider{
-    margin: auto;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-}
-#sliPapas{
-    display: flex;
-    width: 600%;
-}
-#sliPapas section{
-    width: 100%;
-}
-#sliPapas img{
-    display: block;
-    width: 100%;
-    height: 90%;
-    
-}
-#ant, #des{
-    width: 40px;
-    height: 40px;
-    background: rgba(255,255,255,0.7);
-    position:absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    line-height: 40px;
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 50%;
-    font-family: monospace;
-    cursor: pointer;
-}
-#ant:hover, #des:hover{
-    background: rgba(255,255,255,1);
-}
-#ant{
-    left: 10px;
-}
-#des{
+#Lbtn-next{
     right: 50px;
 }
 
-/*carnes*/
-.carnes{
+/*CARNES*/
+.Chamburguesa{
     margin: 0;
     padding: 0;
     display: flex;
     box-sizing: border-box;
 }
-#r-slider{
+#Cc-slider{
     margin: auto;
     width: 100%;
     position: relative;
     overflow: hidden;
 }
-#sliCarnes{
+#Cslider{
     display: flex;
-    width: 600%;
+    width: 2100%;
 }
-#sliCarnes section{
+#Cparrafo-slider{
+    margin: auto;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#CparrafoSider{
+    display: flex;
+    width: 2100%;
+}
+#CparrafoSider section{
+    font-size: 23px;
+    color: white;
+}
+section{
     width: 100%;
 }
-#sliCarnes img{
+#Cslider img{
     display: block;
     width: 100%;
-    height: 90%;
+    height: 100%;
     
 }
-#ante, #desp{
+#Cbtn-prev, #Cbtn-next{
     width: 40px;
     height: 40px;
     background: rgba(255,255,255,0.7);
@@ -306,50 +284,57 @@ section{
     font-family: monospace;
     cursor: pointer;
 }
-#ante:hover, #desp:hover{
+#Cbtn-prev:hover, #Cbtn-next:hover{
     background: rgba(255,255,255,1);
 }
-#ante{
+#Cbtn-prev{
     left: 10px;
 }
-#desp{
+#Cbtn-next{
     right: 50px;
 }
 
-/*otros*/
-.otros{
+/*OTROS*/
+.Ohamburguesa{
     margin: 0;
     padding: 0;
     display: flex;
     box-sizing: border-box;
 }
-#o-slider{
+#Oc-slider{
     margin: auto;
     width: 100%;
     position: relative;
     overflow: hidden;
 }
-#parrOtros{
+#Oslider{
+    display: flex;
+    width: 2100%;
+}
+#Oparrafo-slider{
     margin: auto;
     width: 100%;
     position: relative;
     overflow: hidden;
-    display: flex;
 }
-#sliOtros{
+#OparrafoSider{
     display: flex;
-    width: 600%;
+    width: 2100%;
 }
-#sliOtros section{
+#OparrafoSider section{
+    font-size: 23px;
+    color: white;
+}
+section{
     width: 100%;
 }
-#sliOtros img{
+#Oslider img{
     display: block;
     width: 100%;
-    height: 90%;
+    height: 100%;
     
 }
-#antesd, #despuesd{
+#Obtn-prev, #Obtn-next{
     width: 40px;
     height: 40px;
     background: rgba(255,255,255,0.7);
@@ -364,12 +349,77 @@ section{
     font-family: monospace;
     cursor: pointer;
 }
-#antesd:hover, #despuesd:hover{
+#Obtn-prev:hover, #Obtn-next:hover{
     background: rgba(255,255,255,1);
 }
-#antesd{
+#Obtn-prev{
     left: 10px;
 }
-#despuesd{
+#Obtn-next{
+    right: 50px;
+}
+
+/*PAPAS LOCAS*/
+.Hhamburguesa{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+#Hc-slider{
+    margin: auto;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#Hslider{
+    display: flex;
+    width: 2100%;
+}
+#Hparrafo-slider{
+    margin: auto;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#HparrafoSider{
+    display: flex;
+    width: 2100%;
+}
+#HparrafoSider section{
+    font-size: 23px;
+    color: white;
+}
+section{
+    width: 100%;
+}
+#Hslider img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+#Hbtn-prev, #Hbtn-next{
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.7);
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer;
+}
+#Hbtn-prev:hover, #Hbtn-next:hover{
+    background: rgba(255,255,255,1);
+}
+#Hbtn-prev{
+    left: 10px;
+}
+#Hbtn-next{
     right: 50px;
 }
