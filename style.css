@@ -179,7 +179,7 @@ section{
 }
 #Lslider{
     display: flex;
-    width: 2100%;
+    width: 1000%;
 }
 #Lparrafo-slider{
     margin: auto;
@@ -189,7 +189,7 @@ section{
 }
 #LparrafoSider{
     display: flex;
-    width: 2100%;
+    width: 1000%;
 }
 #LparrafoSider section{
     font-size: 23px;
@@ -244,7 +244,7 @@ section{
 }
 #Cslider{
     display: flex;
-    width: 2100%;
+    width: 600%;
 }
 #Cparrafo-slider{
     margin: auto;
@@ -254,7 +254,7 @@ section{
 }
 #CparrafoSider{
     display: flex;
-    width: 2100%;
+    width: 600%;
 }
 #CparrafoSider section{
     font-size: 23px;
@@ -309,7 +309,7 @@ section{
 }
 #Oslider{
     display: flex;
-    width: 2100%;
+    width: 900%;
 }
 #Oparrafo-slider{
     margin: auto;
@@ -319,7 +319,7 @@ section{
 }
 #OparrafoSider{
     display: flex;
-    width: 2100%;
+    width: 900%;
 }
 #OparrafoSider section{
     font-size: 23px;
@@ -374,7 +374,7 @@ section{
 }
 #Hslider{
     display: flex;
-    width: 2100%;
+    width: 800%;
 }
 #Hparrafo-slider{
     margin: auto;
@@ -384,7 +384,7 @@ section{
 }
 #HparrafoSider{
     display: flex;
-    width: 2100%;
+    width: 800%;
 }
 #HparrafoSider section{
     font-size: 23px;
