@@ -9,6 +9,9 @@ header{
     padding-top: 0px;
     
 }
+.iconnos{
+    position: relative;
+}
 header img{
     width: 70px;
     height: 80px;
@@ -47,6 +50,7 @@ header #redes-sociales i{
 }
 .menu-bar{
    background-color: rgb(224, 152, 58);
+   
 }
 .menu-bar a{
     color: white;
@@ -309,7 +313,7 @@ section{
 }
 #Oslider{
     display: flex;
-    width: 900%;
+    width: 800%;
 }
 #Oparrafo-slider{
     margin: auto;
@@ -319,7 +323,7 @@ section{
 }
 #OparrafoSider{
     display: flex;
-    width: 900%;
+    width: 800%;
 }
 #OparrafoSider section{
     font-size: 23px;
@@ -374,7 +378,7 @@ section{
 }
 #Hslider{
     display: flex;
-    width: 800%;
+    width: 900%;
 }
 #Hparrafo-slider{
     margin: auto;
@@ -384,7 +388,7 @@ section{
 }
 #HparrafoSider{
     display: flex;
-    width: 800%;
+    width: 900%;
 }
 #HparrafoSider section{
     font-size: 23px;
