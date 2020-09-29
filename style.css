@@ -152,7 +152,7 @@ section{
 #slider img{
     display: block;
     width: 100%;
-    height: 100%;
+    height: 70%;
     
 }
 #btn-prev, #btn-next{
@@ -217,7 +217,7 @@ section{
 #Lslider img{
     display: block;
     width: 100%;
-    height: 100%;
+    height: 70%;
     
 }
 #Lbtn-prev, #Lbtn-next{
@@ -282,7 +282,7 @@ section{
 #Cslider img{
     display: block;
     width: 100%;
-    height: 100%;
+    height: 70%;
     
 }
 #Cbtn-prev, #Cbtn-next{
@@ -347,7 +347,7 @@ section{
 #Oslider img{
     display: block;
     width: 100%;
-    height: 100%;
+    height: 70%;
     
 }
 #Obtn-prev, #Obtn-next{
@@ -412,7 +412,7 @@ section{
 #Hslider img{
     display: block;
     width: 100%;
-    height: 100%;
+    height: 70%;
     
 }
 #Hbtn-prev, #Hbtn-next{
