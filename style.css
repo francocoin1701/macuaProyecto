@@ -46,7 +46,7 @@ header #redes-sociales i{
 .siguenos{
     color: white;
 }
-.col-md-6 h6 {
+.col-md-7 h6 {
     padding-top: 30px;
     color: white;
     font-size: 3rem;    
@@ -161,7 +161,7 @@ section{
 #slider img{
     display: block;
     width: 100%;
-    height: 70%;
+    height: 85%;
     
 }
 #btn-prev, #btn-next{
@@ -226,7 +226,7 @@ section{
 #Lslider img{
     display: block;
     width: 100%;
-    height: 70%;
+    height: 85%;
     
 }
 #Lbtn-prev, #Lbtn-next{
@@ -291,7 +291,7 @@ section{
 #Cslider img{
     display: block;
     width: 100%;
-    height: 70%;
+    height: 85%;
     
 }
 #Cbtn-prev, #Cbtn-next{
@@ -356,7 +356,7 @@ section{
 #Oslider img{
     display: block;
     width: 100%;
-    height: 70%;
+    height: 85%;
     
 }
 #Obtn-prev, #Obtn-next{
@@ -421,7 +421,7 @@ section{
 #Hslider img{
     display: block;
     width: 100%;
-    height: 70%;
+    height: 85%;
     
 }
 #Hbtn-prev, #Hbtn-next{
