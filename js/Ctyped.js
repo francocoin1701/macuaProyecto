@@ -1,5 +1,5 @@
 const Ctyped = new Typed(".Ctyped",{
-    strings: ["CLASSIC BURGER", "PARRILLA Y CARBON","MENU HAMBURGERS"],
+    strings: ["MENU PERROS","CLASSIC BURGER", "PARRILLA Y CARBON"],
     typeSpeed: 75,
     startDelay: 300,
     backSpeed: 75,
