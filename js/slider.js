@@ -260,7 +260,7 @@ function HmoverDparrafo(){
 }
 
 function HmoverI(){
-    Oslider.animate({
+    Hslider.animate({
         marginLeft:0
     },700,function(){
         $("#Hslider section:last").insertBefore("#Hslider section:first");
